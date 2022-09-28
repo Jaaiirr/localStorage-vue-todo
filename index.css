@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    /* colors */
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-main: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--very-dark-blue-main);
+    font-family: 'Outfit', sans-serif;
+    color: var(--white);
+}
+
+.btn-add {
+    background-color: var(--very-dark-blue-line) !important;
+    color: var(--cyan);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    height: 60px;
+    width: 100%;
+    background-color: var(--very-dark-blue-line);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
